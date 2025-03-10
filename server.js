@@ -38,6 +38,8 @@ app.get("/dashboard" , (req,res) => {
     res.send('<p> Hello welcome to dashboard </p>')
 })
 
-app.listen(port, () => {
-    console.log(`Server running on http://localhost:${port}`);
-});
+// app.listen(port, () => {
+//     console.log(`Server running on http://localhost:${port}`);
+// });
+
+module.exports = app;
